@@ -8,6 +8,8 @@
 
 .card > h2 {
   font-size: 32px;
+  border-left: 4px solid white;
+  cursor: pointer;
 }
 
 .card > img {
