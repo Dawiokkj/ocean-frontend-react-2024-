@@ -4,14 +4,37 @@
   padding: 16px;
   box-shadow: 3px 3px white;
   text-align: center;
+  cursor: pointer;
 }
 
 .card > h2 {
   font-size: 32px;
-  border-left: 4px solid white;
-  cursor: pointer;
+  border-left: 6px solid #A9D3E9;
+  border-radius: 3px;
 }
 
 .card > img {
   border-radius: 15px;
+}
+
+.card span {
+  display: block;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.tag {
+  border-radius: 10px;
+  background: white;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 16px;
 }
