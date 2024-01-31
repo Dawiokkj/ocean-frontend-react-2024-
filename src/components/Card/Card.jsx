@@ -10,9 +10,9 @@ function Card(props) {
         <h2>{item.name}</h2>
         
         <div className="tags">
-          <div className="tag">Status: Vivo</div>
-          <div className="tag">Espécie: Humana</div>
-          <div className="tag">Origem: Terra C-137</div>
+          <div className="tag">Status: {item.status}</div>
+          <div className="tag">Specie: {item.species}</div>
+          <div className="tag">Origin: {item["origin"].name}</div>
         </div>
 
         <img src={item.image}/>
