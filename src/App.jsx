@@ -24,9 +24,6 @@ function App() {
   return (
       <>
         <div className='cards'> 
-          {/* <Card item={item1} />
-          <Card item={item2} />
-          <Card item={item3} /> */}
           {itens.map(item => <Card item={item} />)}
         </div>    
      </>
